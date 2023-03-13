@@ -8,7 +8,7 @@ It is the first study that automatically classifies scatter plots in terms of tw
 
 ## Project Structure
 
-- The Notebooks folder contains the All_Models file containing all tested models, the Creating_Dataset file used to create the database, and the ResNet50_MODEL file containing the code for the Resnet50 model that gives the best results.
+- The Notebooks folder contains the All_Models file containing all tested models, the Creating_Dataset file used to create the database, and the Model_ResNet50 file containing the code for the Resnet50 model that gives the best results.
 
 - Web_App contains the code that creates a web page using Streamlit.
 
