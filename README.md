@@ -23,5 +23,21 @@ The results of the models are as follows
 
 <img width="332" alt="Screen Shot 2023-03-13 at 18 08 20" src="https://user-images.githubusercontent.com/50110116/224743363-40aefede-df2a-4fc5-b3cf-1c30ac3156fc.png">
 
+## How To Run
+
+In order to run the project, the environment is created first.
+- python3 -m venv env
+
+The created environment is activated.
+- source env/bin/activate
+
+The libraries in the requirements.txt file are loaded into the environment.
+- pip install -r requirements.txt
+
+Web_App is run and the project redirects us to the web page
+- streamlit run Web_App.py
+
+
 ## Publication
 [Article Link](https://dergipark.org.tr/en/download/article-file/1910064)
+
