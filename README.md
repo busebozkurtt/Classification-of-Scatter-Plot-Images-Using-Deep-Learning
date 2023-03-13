@@ -6,6 +6,14 @@ It is the first study that automatically classifies scatter plots in terms of tw
 
 <img width="568" alt="Screen Shot 2023-03-13 at 17 36 15" src="https://user-images.githubusercontent.com/50110116/224733932-709e9d35-ef04-44e2-8cc8-29e7f13c309a.png">
 
+## Project Structure
+
+- The Notebooks folder contains the All_Models file containing all tested models, the Creating_Dataset file used to create the database, and the ResNet50_MODEL file containing the code for the Resnet50 model that gives the best results.
+
+- Web_App contains the code that creates a web page using Streamlit.
+
+- Since it takes too long to train the models, the model used is included in the model.h5 file.
+
 ## Create Dataset
 The training dataset was not used readily in the project and it was created with python code. While creating the data, it was paid attention that the plots were not always flat. Scatter plot images can be loaded into the system incorrectly or incompletely, so visually impaired individuals can use this application. In the prepared dataset, all types of scatter plots (Strong-Positive, Strong-Negative, Non-Correlation, Weak-Positive, Weak-Negative). 
 
